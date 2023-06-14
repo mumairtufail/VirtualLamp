@@ -1,0 +1,63 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>JavaScript Project</title>
+    <link rel="stylesheet" href="first_project.css">
+</head>
+<body>
+    <div class="hero">
+        <nav>
+            <img src="assets/menu.png" class="menu-img" >
+            <img src="assets/logo.jpg" class="logo-img" >
+            <ul>
+                <li><a href="">Home</a></li>
+                <li><a href="">Contact us</a></li>
+                <li><a href="">Order</a></li>
+                <li><a href="">About us</a></li>
+            </ul>
+            <button type="button" onclick="toggleColor()" id="btn"><span></span></button>
+        </nav>
+
+        <div class="para">
+            <h2>First <br> Virtual lamp</h2> <br>
+            <p>Hello, my name is Muhammad Umair, and I
+                 would like to present my webpage.<br> This 
+                 webpage includes a unique feature that
+                  allows you to interact with a button, <br>
+                  resulting in the illumination of a 
+                  virtual light source. This functionality
+                   has been <br> implemented using a combination
+                    of HTML, CSS, and JavaScript technologies.
+                <br>
+                By simply clicking on the designated button,
+                 you will witness the activation <br> of the light, 
+                 providing an engaging visual experience. 
+                 The integration of HTML <br> allows for the
+                  creation of the webpage's structure, 
+                  while CSS ensures its <br> appealing visual design. 
+                  Lastly, JavaScript plays a vital role in enabling 
+                  the <br>dynamic behavior of the light switch feature.</p>
+        </div>
+
+
+        
+        <div class="lamp-container">
+            <img src="assets/lamp.png" class="lamp">
+            <img src="assets/light.png" class="light" id="light">
+        </div>
+
+    </div>
+    <script>
+        var btn = document.getElementById("btn");
+        var light = document.getElementById("light");
+    
+        function toggleColor() {
+          btn.classList.toggle("active");
+          light.classList.toggle("light-on");
+        }
+      </script>
+
+</body>
+</html>
