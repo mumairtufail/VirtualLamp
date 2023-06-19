@@ -11,5 +11,5 @@ The project consists of the following files and directories:
 - `assets/`: A directory containing the necessary image assets for the project.
 - `README.md`: This file, providing project information and instructions.
 
-![Image Description](relative/path/to/image.png)
-![Virtual Lamp](assets/before.png)
+
+![Before](assets/before.png)
