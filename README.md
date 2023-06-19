@@ -12,4 +12,13 @@ The project consists of the following files and directories:
 - `README.md`: This file, providing project information and instructions.
 
 
-![Before]([Javascript/assets/before.png]
+## Before 
+
+![before](https://github.com/mumairtufail/VirtualLamp/assets/124144296/db1ce394-04f6-4f15-8009-6411ad064466)
+
+
+##After
+
+![After](https://github.com/mumairtufail/VirtualLamp/assets/124144296/f90fadd9-2ea2-4ca9-8511-f96d292dba04)
+
+
