@@ -12,4 +12,4 @@ The project consists of the following files and directories:
 - `README.md`: This file, providing project information and instructions.
 
 ![Image Description](relative/path/to/image.png)
-![Virtual Lamp](images/lamp.png)
+![Virtual Lamp](assets/before.png)
