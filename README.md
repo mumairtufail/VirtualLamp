@@ -12,4 +12,4 @@ The project consists of the following files and directories:
 - `README.md`: This file, providing project information and instructions.
 
 
-![Before]([Javascript/assets/before.png].
+![Before]([Javascript/assets/before.png]
